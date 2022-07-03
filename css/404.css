@@ -1,0 +1,18 @@
+body{
+    background-color: #ee82ee;
+}
+
+main{
+    text-align: center;
+}
+
+main p a{
+    background-color: #e49d2c;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 24px;
+}
+
+main p a:hover{
+    background-color: #dd8622;
+}
