@@ -16,3 +16,23 @@ main p a{
 main p a:hover{
     background-color: #dd8622;
 }
+
+form input{
+    width: 50rem;
+    height: 2rem;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button{
+    height: 2rem;
+    padding: 5px;
+    font-size: 1rem;
+    background-color: #dd8622;
+    color: #ffe4c4;
+}
+
+form button:active{
+    background-color: #e49d2c;
+}
