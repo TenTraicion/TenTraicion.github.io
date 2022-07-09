@@ -1,9 +1,28 @@
 body{
     background-color: #deb887;
 }
+
 header{
     text-align: center;
 }
+
 a{
     text-decoration: none;
+}
+
+.npx{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.js{
+    background-color: antiquewhite;
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: .5px 0;
 }
