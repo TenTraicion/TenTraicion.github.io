@@ -1,14 +1,25 @@
 body{
     background-color: #22272e;
     color: aliceblue;
+    margin: 0;
 }
 
 header{
     text-align: center;
 }
 
+hr{
+    width: 60%;
+}
+
 a{
     text-decoration: none;
+    color: aqua;
+}
+
+a:hover{
+    color: bisque;
+    font-weight: 700;
 }
 
 .npx{
@@ -52,4 +63,18 @@ a{
 
 .ps:hover{
     color: aliceblue;
+}
+
+.container{
+    position: relative;
+}
+
+.text-block{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
