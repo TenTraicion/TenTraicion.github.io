@@ -45,15 +45,29 @@ a:hover{
 }
 
 .metrics{
-    background-color: antiquewhite;
+    background-color: #faebd7;
     width: 600px;
     height: 830px;
     margin: 0 auto;
     border-radius: 10px;
 }
 
+.box{
+    background-color: #4b4848;
+    padding: 10px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 15px;
+    text-align: center;
+}
+
 .about p{
     font-family: cursive;
+    padding: 10px;
+    background-color: #292727;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
 .ps{
