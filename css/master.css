@@ -44,3 +44,12 @@ a{
 .about p{
     font-family: cursive;
 }
+
+.ps{
+    font-size: 12px;
+    color: #44484c;
+}
+
+.ps:hover{
+    color: aliceblue;
+}
