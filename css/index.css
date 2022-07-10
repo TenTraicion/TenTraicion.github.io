@@ -29,7 +29,7 @@
     font-family: cursive;
     padding: 10px;
     background-color: #292727;
-    width: 62.5rem;
+    width: 56rem;
     margin: 0 auto;
     border-radius: 15px;
 }
@@ -87,6 +87,20 @@
     padding: .25rem;
 }
 
+.img{
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.cg{
+    display: block;
+    margin: 1rem auto;
+    width: 900px;
+    border-radius: 15px;
+    object-fit: contain;
+}
+
 .ps{
     font-size: 12px;
     color: #1c1c1d;
@@ -95,6 +109,14 @@
 
 .ps:hover{
     color: aliceblue;
+}
+
+.b2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
 
 .container{
