@@ -81,7 +81,7 @@
 }
 
 .tut span{
-    background-color: blanchedalmond;
+    background-color: #ffebcd;
     border-radius: 5px;
     color: #292727;
     padding: .25rem;
@@ -108,7 +108,7 @@
 }
 
 .ps:hover{
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 .b2{
