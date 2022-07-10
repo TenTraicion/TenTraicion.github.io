@@ -132,5 +132,9 @@
     text-align: center;
     margin: 0 auto;
     position: relative;
-    top: 250px;
+    top: 200px;
+    width: 250px;
+    background-color: #44484c;
+    padding: .5rem;
+    border-radius: 10px;
 }
