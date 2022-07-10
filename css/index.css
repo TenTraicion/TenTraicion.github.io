@@ -53,6 +53,15 @@
     text-align: center;
 }
 
+.spotify{
+    display: block;
+    margin: 1rem auto;
+}
+
+.social{
+    text-align: center;
+}
+
 .ps{
     font-size: 12px;
     color: #44484c;
