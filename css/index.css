@@ -16,8 +16,13 @@
     padding: .5px 0;
 }
 
-.code img{
+.code{
+    width: 600px;
+    height: 500px;
     border-radius: 10px;
+    object-fit: cover;
+    margin: 1rem auto;
+    display: block;
 }
 
 .metrics{
