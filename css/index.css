@@ -59,12 +59,12 @@
     margin: 1rem auto;
     border-radius: 10px;
     width: 300px;
+    text-align: center;
 }
 
 .tut ul{
     list-style: none;
-    text-align: center;
-    align-items: center;
+    padding-left: 0;
 }
 
 .tut li{
