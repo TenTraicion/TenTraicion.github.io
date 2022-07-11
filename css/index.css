@@ -134,12 +134,9 @@
 }
 
 .copy{
-    text-align: center;
-    margin: 0 auto;
+    text-align: right;
     position: relative;
-    top: 200px;
-    width: 250px;
-    background-color: #44484c;
-    padding: .5rem;
+    top: 245px;
+    margin-right: 1rem;
     border-radius: 10px;
 }
