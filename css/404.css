@@ -47,6 +47,33 @@ form button:active{
     color: #000000;
 }
 
+social{
+    text-align: center;
+}
+
+.about{
+    font-family: cursive;
+    padding: 10px;
+    background-color: #292727;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.back{
+    background-color: #44484c;
+    border-radius: 15px;
+    padding: 2.5px 0;
+    margin: .5rem auto;
+    width: 300px;
+}
+
+.back a{
+    background-color: #3f3f42;
+    padding: 10px;
+    border-radius: 15px;
+}
+
 .tut{
     background-color: #44484c;
     font-family: cursive;
@@ -55,6 +82,21 @@ form button:active{
     border-radius: 10px;
     width: fit-content;
     text-align: center;
+}
+
+.tut h2{
+    background-color: #292727;
+    padding: .25rem;
+    border-radius: 10px;
+    width: fit-content;
+    margin: .5rem auto;
+}
+
+.tut span{
+    background-color: #ffebcd;
+    border-radius: 10px;
+    color: #292727;
+    padding: .25rem;
 }
 
 .ps{

@@ -21,3 +21,30 @@ a:hover{
     color: #ffe4c4;
     font-weight: 700;
 }
+
+.box{
+    background-color: #4b4848;
+    padding: 10px;
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 15px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.text-block{
+    background-image: url(https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg);
+    text-align: center;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    font-family: cursive;
+}
+
+.copy{
+    text-align: right;
+    position: relative;
+    top: 245px;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
