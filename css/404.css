@@ -1,7 +1,3 @@
-body{
-    background-color: #ee82ee;
-}
-
 main{
     text-align: center;
 }
@@ -35,10 +31,4 @@ form button{
 
 form button:active{
     background-color: #e49d2c;
-}
-
-hr{
-    width: 50%;
-    border: dotted;
-    border-radius: 25%;
 }
