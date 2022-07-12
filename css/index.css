@@ -34,15 +34,6 @@
     border-radius: 15px;
 }
 
-.box{
-    background-color: #4b4848;
-    padding: 10px;
-    width: 300px;
-    margin: 20px auto;
-    border-radius: 15px;
-    text-align: center;
-}
-
 .spotify{
     display: block;
     margin: 1rem auto;
