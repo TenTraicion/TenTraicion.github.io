@@ -22,6 +22,12 @@ a:hover{
     font-weight: 700;
 }
 
+.center{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
 .box{
     background-color: #4b4848;
     padding: 10px;
