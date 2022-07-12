@@ -93,16 +93,6 @@
     object-fit: contain;
 }
 
-.ps{
-    font-size: 10px;
-    color: #1c1c1d;
-    margin: 0 auto;
-}
-
-.ps:hover{
-    color: #f0f8ff;
-}
-
 .b2{
     display: flex;
     flex-direction: row;
