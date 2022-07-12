@@ -99,16 +99,6 @@ social{
     padding: .25rem;
 }
 
-.ps{
-    font-size: 10px;
-    color: #1c1c1d;
-    margin: .5rem auto;
-}
-
-.ps:hover{
-    color: #f0f8ff;
-}
-
 .tut{
     background-color: #44484c;
     font-family: cursive;

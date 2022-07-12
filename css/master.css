@@ -54,3 +54,13 @@ a:hover{
     margin-right: 1rem;
     border-radius: 10px;
 }
+
+.ps{
+    font-size: 10px;
+    color: #1c1c1d;
+    margin: .5rem auto;
+}
+
+.ps:hover{
+    color: #f0f8ff;
+}
