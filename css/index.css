@@ -1,9 +1,10 @@
 .js{
     background-color: #44484c;
-    width: 900px;
+    width: 500px;
     margin: 0 auto;
     border-radius: 10px;
     padding: .5px 0;
+    text-align: center;
 }
 
 .code{
@@ -17,12 +18,13 @@
 
 .metrics{
     display: block;
-    background-color: #faebd7;
-    width: 600px;
-    height: 830px;
+    background-color: #33383d;
+    width: 500px;
+    height: 900px;
     margin: 1rem auto;
     border-radius: 10px;
-    object-fit: contain;
+    object-fit: none;
+    object-position: left top;
 }
 
 .about{
@@ -77,6 +79,11 @@
 .tut span:hover{
     background-color: #4b4848;
     color: #f0f8ff;
+}
+
+.meme{
+    width: 95%;
+    border-radius: 16px;
 }
 
 .img{
