@@ -1,6 +1,5 @@
 //opening form
-function openConfig(event) {
-  player = +event.target.dataset.player;
+function openConfig() {
   ovrl.style.display = "flex";
   backdrop.style.display = "block";
   console.log("Form Opened!")
