@@ -19,23 +19,19 @@ function checked() {
 
   subject.value = sub.value;
   body.value = output + mail;
-  console.log(output + mail);
   console.log(`Mail Send!`)
 }
 
 //count
 function update(event) {
-  const entry = event.target.value;
-    const entryLength = entry.length;
+  const entry = event.target.value.length;
     
-    const count = max - entryLength;
+  remains.textContent = msg.maxLength - entry;
 
-    remains.textContent = count;
-
-    if(count <= 10) {
-      remains.className = "error";
-      msg.classList.add("error");
-      msg.classList.remove("warning");
+  if(count <= 10) {
+    remains.className = "error";
+    msg.classList.add("error");
+    msg.classList.remove("warning");
   } else if(count <= 50) {
       remains.className = "warning"
       msg.classList.remove("error");

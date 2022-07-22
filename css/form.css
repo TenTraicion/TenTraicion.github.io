@@ -114,6 +114,17 @@ hr{
   border-color: #4f0abe;
 }
 
+.alt{
+  background-color: transparent;
+  border-color: transparent;
+  color: #8c00ff;
+}
+
+.alt:hover{
+  background-color: #e6c9fc;
+  border-color: transparent;
+}
+
 textarea.warning {
   background-color: #f8bf91;
 }
@@ -134,4 +145,9 @@ textarea.error {
 #count.error {
   color:#d3361a;
   font-weight: bold;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
 }

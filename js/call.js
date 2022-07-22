@@ -18,17 +18,16 @@ const git = document.getElementById("git");
 const twit = document.getElementById("twit");
 const sub = document.getElementById("sub");
 const msg = document.getElementById("msg");
-const max = msg.maxLength;
 
 //creating output
 const subject = document.getElementById("subject");
 const body = document.getElementById("body");
 
 // Add Listener for Contact
- contact.addEventListener("click", openConfig);
+contact.addEventListener("click", openConfig);
 
- //close listener
- cancel.addEventListener("click", closeConfig);
+//close listener
+cancel.addEventListener("click", closeConfig);
 backdrop.addEventListener("click", closeConfig);
 
 // checkbox
