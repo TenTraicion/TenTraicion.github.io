@@ -28,7 +28,6 @@
 }
 
 .about{
-    font-family: cursive;
     padding: 10px;
     background-color: #292727;
     width: 56rem;
@@ -43,7 +42,6 @@
 
 .tut{
     background-color: #44484c;
-    font-family: cursive;
     padding: .5rem;
     margin: 1rem auto;
     border-radius: 10px;

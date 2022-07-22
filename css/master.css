@@ -2,6 +2,7 @@ body{
     background-color: #22272e;
     color: #f0f8ff;
     margin: 0;
+    font-family: cursive, sans-serif;
 }
 
 header{
@@ -35,7 +36,6 @@ a:hover{
     margin: 20px auto;
     border-radius: 15px;
     text-align: center;
-    font-family: cursive;
 }
 
 .text-block{
@@ -44,7 +44,6 @@ a:hover{
     height: 300px;
     background-position: center;
     background-size: cover;
-    font-family: cursive;
 }
 
 .copy{

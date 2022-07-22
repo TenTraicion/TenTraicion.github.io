@@ -2,17 +2,6 @@ main{
     text-align: center;
 }
 
-/* main p a{
-    background-color: #e49d2c;
-    color: white;
-    border-radius: 4px;
-    padding: 8px 24px;
-} */
-
-/* main p a:hover{
-    background-color: #dd8622;
-} */
-
 .form{
     display: flex;
     justify-content: space-around;
@@ -52,7 +41,6 @@ social{
 }
 
 .about{
-    font-family: cursive;
     padding: 10px;
     background-color: #292727;
     width: fit-content;
@@ -76,7 +64,6 @@ social{
 
 .search{
     background-color: #44484c;
-    font-family: cursive;
     padding: .5rem;
     margin: 1rem auto;
     border-radius: 10px;
@@ -101,7 +88,6 @@ social{
 
 .tut{
     background-color: #44484c;
-    font-family: cursive;
     padding: .5rem;
     margin: .5rem auto;
     border-radius: 10px;
