@@ -42,6 +42,10 @@ form input, form textarea{
   justify-content: space-between;
 }
 
+#contact{
+  cursor: pointer;
+}
+
 .form{
   text-align: center;
 }
