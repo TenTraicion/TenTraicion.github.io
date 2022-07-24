@@ -10,6 +10,8 @@ const ovrl = document.getElementById("ovrl");
 const cancel = document.getElementById("exit");
 const chk = document.getElementById("chk");
 const remains = document.getElementById("count");
+const btn = document.getElementById("submit");
+const err = document.getElementById("error");
 
 //taking input
 const uname = document.getElementById("uname");
@@ -24,7 +26,7 @@ const subject = document.getElementById("subject");
 const body = document.getElementById("body");
 
 // Add Listener for Contact
-contact.addEventListener("click", openConfig);
+ contact.addEventListener("click", openConfig);
 
 //close listener
 cancel.addEventListener("click", closeConfig);

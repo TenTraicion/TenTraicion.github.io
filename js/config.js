@@ -9,24 +9,43 @@ function openConfig() {
 function closeConfig() {
   ovrl.style.display = "none";
   backdrop.style.display = "none";
+  err.classList.remove("error");
+  chk.checked = false;
+  subject.value = "";
+  body.value = "";
+  uname.value = "";
+  email.value = "";
+  git.value = "";
+  twit.value = "";
+  msg.value = "";
+  btn.style.display = "none";
   console.log("Form Closed!")
 }
 
 //checkbox
 function checked() {
-  const output = `MY Information: \n Name: ${uname.value}\n Email: ${email.value}\n GitHub Profile: https://github.com/${git.value}\n Twitter: https://twitter.com/${twit.value}`;
-  const mail = `\n\n My Message:\n ${msg.value}`;
+  if (uname.value == "" || email.value == "" || git.value == "" || twit.value == "" || sub.value == "" || msg.value == "") {
+    err.classList.add("error");
+    btn.style.display = "none";
+    return;
+  }
+    err.classList.remove("error");
+    btn.style.display = "inline"
 
-  subject.value = sub.value;
-  body.value = output + mail;
-  console.log(`Mail Send!`)
+    const output = `MY Information: \n Name: ${uname.value}\n Email: ${email.value}\n GitHub Profile: https://github.com/${git.value}\n Twitter: https://twitter.com/${twit.value}`;
+    const mail = `\n\n My Message:\n ${msg.value}`;
+
+    subject.value = sub.value;
+    body.value = output + mail;
 }
 
 //count
 function update(event) {
-  const entry = event.target.value.length;
+  const entry = event.target.value;
     
-  remains.textContent = msg.maxLength - entry;
+  const count = msg.maxLength - entry.length;
+
+  remains.textContent = count;
 
   if(count <= 10) {
     remains.className = "error";
