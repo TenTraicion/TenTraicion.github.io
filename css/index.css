@@ -19,12 +19,12 @@
 .metrics{
     display: block;
     background-color: #33383d;
-    width: 500px;
-    height: 900px;
+    width: 30rem;
+    padding: 0.5rem;
+    height: fit-content;
     margin: 1rem auto;
-    border-radius: 10px;
-    object-fit: none;
-    object-position: left top;
+    border-radius: 1rem;
+    object-fit: cover;
 }
 
 .about{
@@ -77,11 +77,6 @@
 .tut span:hover{
     background-color: #4b4848;
     color: #f0f8ff;
-}
-
-.meme{
-    width: 95%;
-    border-radius: 16px;
 }
 
 .img{
