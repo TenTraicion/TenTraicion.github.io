@@ -1,4 +1,4 @@
 # TenTraicion
 
-Nothing is True
+Nothing is True - Everything is Permitted
 
